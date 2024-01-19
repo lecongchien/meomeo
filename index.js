@@ -1,5 +1,5 @@
 var maliDiv = document.querySelector(".mali");
-var contentList = ["Ê Ma Ly kia ngủ đeeee", "Ngủ đi má ơi!!"];
+var contentList = ["Mew mew", "Zzzz"];
 
 var timeoutId;
 
@@ -8,7 +8,7 @@ function toggleOpacity() {
   var randomContent = contentList[randomIndex];
   maliDiv.textContent = randomContent;
 
-  timeoutId = setTimeout(toggleOpacity, 5000);
+  timeoutId = setTimeout(toggleOpacity, 3000);
 }
 
 toggleOpacity();
