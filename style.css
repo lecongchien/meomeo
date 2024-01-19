@@ -173,8 +173,7 @@ body {
   position: absolute;
   font-weight: bold;
   font-size: 16px;
-  font-family: cursive;
-  z-index: 1000;
+  z-index: 1001;
   animation: MaLy 6s step-end infinite;
 }
 
