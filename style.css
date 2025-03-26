@@ -164,7 +164,7 @@ body {
 .nightstand-shadow {
   animation: darken 6s step-end infinite;
 }
-.mali {
+.thao {
   top: 45%;
   left: 40%;
   color: #000000;
@@ -187,7 +187,7 @@ body {
     opacity: 1;
   }
 }
-.imageLy,
+.imageThao,
 .image {
   position: absolute;
   width: 100px;
@@ -201,7 +201,7 @@ body {
   right: 30px;
   border: 10px inset;
 }
-.imageLy {
+.imageThao {
   top: 18%;
   right: 170px;
   border: 10px inset;
@@ -217,7 +217,7 @@ body {
   }
 }
 .image > img,
-.imageLy > img {
+.imageThao > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
